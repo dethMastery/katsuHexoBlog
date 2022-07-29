@@ -84,17 +84,17 @@ time_format: HH:mm:ss
 updated_option: 'mtime'
 
 # Feed
-feed:
-  # Generate atom feed
-  type: atom
+# feed:
+#   # Generate atom feed
+#   type: atom
 
-  # Generate both atom and rss2 feeds
-  type:
-    - atom
-    - rss2
-  path:
-    - atom.xml
-    - rss2.xml
+#   # Generate both atom and rss2 feeds
+#   type:
+#     - atom
+#     - rss2
+#   path:
+#     - atom.xml
+#     - rss2.xml
 
 # Pagination
 ## Set per_page to 0 to disable pagination
