@@ -3,6 +3,7 @@ nav:
   Posts: /archives
   Categories: /category
   Tags: /tag
+  Repo: /repo
 
 # favicon
 favicon: /images/logo.svg
