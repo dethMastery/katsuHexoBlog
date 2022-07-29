@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://suphakit.net
+url: https://blog.suphakit.net
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -84,17 +84,20 @@ time_format: HH:mm:ss
 updated_option: 'mtime'
 
 # Feed
-# feed:
-#   # Generate atom feed
-#   type: atom
-
-#   # Generate both atom and rss2 feeds
-#   type:
-#     - atom
-#     - rss2
-#   path:
-#     - atom.xml
-#     - rss2.xml
+feed:
+  enable: true
+  type: 
+    - atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template: ./source/template.xml
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -104,8 +107,8 @@ pagination_dir: page
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
 include:
-exclude:
-  - 'custom.xml'
+exclude: 
+  - 'template.xml'
 ignore:
 
 # Extensions
