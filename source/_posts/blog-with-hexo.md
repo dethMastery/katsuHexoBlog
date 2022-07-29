@@ -1,8 +1,7 @@
 ---
 title: New blog with 'Hexo'
-
 date: 1659099538974
-category: hexo
+category: [coding, hexo]
 tags: codingTime
 ---
 
