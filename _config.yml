@@ -8,13 +8,14 @@ subtitle: 'Just a music composer with full-stack developer skill :3'
 description: 'Just a music composer with full-stack developer skill :3'
 keywords:
 author: Suphakit P.
+khome: https://suphakit.net/
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://blog.suphakit.net
-permalink: :year/:month/:day/:title/
+permalink: posts/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -114,7 +115,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: maple
+theme: katsuMaple
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
