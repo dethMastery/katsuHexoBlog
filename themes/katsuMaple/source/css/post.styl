@@ -36,7 +36,8 @@ html, body {
       opacity: 0.75
 
 .post-title
-  color: var(--fg-deeper)
+  color: text
+  font-family: font-family
   font-weight: 800
   font-size: 2.25em
   margin-top: 0
@@ -122,7 +123,8 @@ html, body {
     border: none
 
   h1
-    color: var(--fg-deeper)
+    color: text
+    font-family: font-family
     font-weight: 800
     font-size: 2.25em
     margin-top: 0
@@ -159,7 +161,7 @@ html, body {
     margin-bottom: 1.25em
 
   strong
-    color: var(--fg-deep)
+    color: text
     font-weight: 600
 
   em
@@ -219,7 +221,7 @@ html, body {
         left: 0
 
   a
-    color: var(--fg-deeper)
+    color: text
     text-decoration: none
     font-weight: 500
     text-decoration: none
@@ -246,7 +248,7 @@ html, body {
     border-color: inherit
     text-indent: 0
     thead
-      color: var(--fg-deeper)
+      color: text
       font-weight: 600
       border-bottom-width: 1px
       border-bottom-color: #d1d5db
@@ -298,12 +300,14 @@ html, body {
       font-size: block-font-size
       margin: 0
       padding: 0.2em
+      color: text
       code
-        font-family: block-font-family
+        font-family: font-family
+        color: text
         border-width: 0;
         border-radius: 0;
         padding: 0;
-        font-weight: 400;
+        font-weight: 600;
         color: inherit;
         font-size: inherit;
         font-family: inherit;
@@ -314,7 +318,7 @@ html, body {
           content: none
   code
     font-family: block-font-family
-    color: var(--fg-deep)
+    color: text
     font-weight: 600
     font-size: 0.875em
     &::before
