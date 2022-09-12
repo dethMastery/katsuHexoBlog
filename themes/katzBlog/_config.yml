@@ -15,3 +15,18 @@ logo: /images/logo.svg
 links:
   Github: https://github.com/dethMastery
   Twitter: https://twitter.com/georgeKdeterk
+
+# fancybox
+fancybox: true
+
+# mathjax
+mathjax: true
+
+# echarts
+echarts: true
+
+# mermaid
+mermaid:
+  enable: true
+  # Available themes: default | dark | forest | neutral
+  theme: dark

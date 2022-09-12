@@ -10,7 +10,7 @@
       <a href="<%- url_for(post.path) %>" class="item">
         <div class="title"><%= post.title %></div>      
       </a>
-      <div class="time"><%- date(post.date, "YYYY-MM-DD HH:MM") %></div>
+      <div class="time"><%- date(post.date, "YYYY-MM-DD | HH:MM") %></div>
     </li>
     <% }) %>
   </ul>

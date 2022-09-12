@@ -1,10 +1,10 @@
 body {
-  background-color: #2e2f2f;
-  color: whitesmoke;
+  background-color: #0D1B2A;
+  color: #E0E1DD;
 }
 
 a {
-  color: rgb(228, 228, 228);
+  color: #E0E1DD;
   transition: all .3s;
 }
 
