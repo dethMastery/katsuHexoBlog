@@ -1,0 +1,17 @@
+# Header
+nav:
+  Posts: /archives
+  Categories: /category
+  Tags: /tag
+  Repo: /repo
+
+# FavIcon
+favicon: /images/logo.svg
+
+# Logo
+logo: /images/logo.svg
+
+# links
+links:
+  Github: https://github.com/dethMastery
+  Twitter: https://twitter.com/georgeKdeterk

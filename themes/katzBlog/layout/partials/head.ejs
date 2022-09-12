@@ -1,6 +1,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
 <% if(config.author){ %>
   <meta name="author" content="<%- config.author %>">
 <% } %>
@@ -33,4 +34,9 @@ if (is_archive()) {
 %>
 <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
 
-<%- css('css/style') %>
+<%# favicon %>
+<% if (theme.favicon){ %>
+  <link rel="icon" href="<%- url_for(theme.favicon) %>">
+<% } %>
+
+<%- css('css/style.css') %>
