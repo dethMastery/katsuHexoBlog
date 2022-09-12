@@ -11,10 +11,11 @@
   <body>
     <div id="app">
       <%- partial('partials/header', null, {cache: true}) %> 
-      <div class="container">
+      <main class="container">
         <%- body %> 
       </div>
+      <%- partial('partials/footer', null, {cache: true}) %> 
     </div>
+    <%- partial('partials/after-footer') %> 
   </body>
-
 </html>
